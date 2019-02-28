@@ -1,4 +1,5 @@
 # compose
+from fuctools import reduce
 var=10
 compose_parameters = [ str, float, var]
 reduce(lambda x, y: y(x), reversed(compose_parameters))
