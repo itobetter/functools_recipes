@@ -20,6 +20,9 @@ map(partial(h, a,b),l)
 # actualizar diccionario en un lambda
 d = {'a':1,'b':2,'c':3,'d':4}
 update_dict = lambda x:x.update({'k':'v'}) or x
+# actualizar diccionario solo si existe si se cumple la primera sentencia
+# puede tomarse como un siblo if de una sola linea
+True and d.update({3:5})
 
 # eliminar duplicados en una lista
 list = [1,2,3,6,2,1,4,3,1,4]
