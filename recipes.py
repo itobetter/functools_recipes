@@ -21,3 +21,6 @@ map(partial(h, a,b),l)
 d = {'a':1,'b':2,'c':3,'d':4}
 update_dict = lambda x:x.update({'k':'v'}) or x
 
+# eliminar duplicados en una lista
+list = [1,2,3,6,2,1,4,3,1,4]
+set(list)
